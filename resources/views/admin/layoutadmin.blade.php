@@ -88,15 +88,15 @@
     <ul class="app-menu">
       <li><a class="app-menu__item " href="index.php?page=home"><i class='app-menu__icon bx bx-tachometer'></i><span
             class="app-menu__label">Bảng điều khiển</span></a></li>
-      <li><a class="app-menu__item" href="index.php?page=user"><i class='app-menu__icon bx bx-user-voice'></i><span
-            class="app-menu__label">Quản lý khách hàng</span></a></li>
+      <!-- <li><a class="app-menu__item" href="index.php?page=user"><i class='app-menu__icon bx bx-user-voice'></i><span
+            class="app-menu__label">Quản lý khách hàng</span></a></li> -->
       <li><a class="app-menu__item" href="/admin/sanphamde"><i
             class='app-menu__icon bx bx-purchase-tag-alt'></i><span class="app-menu__label">Quản lý sản
             phẩm</span></a>
       </li>
-      <li><a class="app-menu__item" href="index.php?page=bangsp"><i
+      <!-- <li><a class="app-menu__item" href="index.php?page=bangsp"><i
             class='app-menu__icon bx bx-purchase-tag-alt'></i><span class="app-menu__label">Quản lý danh mục</span></a>
-      </li>
+      </li> -->
       <li><a class="app-menu__item" href="#"><i class='app-menu__icon bx bx-cog'></i><span class="app-menu__label">Cài
             đặt hệ thống</span></a></li>
     </ul>

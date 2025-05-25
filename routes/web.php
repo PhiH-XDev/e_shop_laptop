@@ -8,7 +8,7 @@ use App\Http\Controllers\GoogleLoginController;
 use Illuminate\Foundation\Auth\EmailVerificationRequest;
 use App\Http\Controllers\AdminController;
 use App\Http\Controllers\AdminSPController;
-
+use App\Http\Controllers\CartController;
 use App\Http\Controllers\UserController;
 
 use Illuminate\Http\Request;
@@ -23,8 +23,16 @@ Route::get('/login', [HomeController::class, 'login']);
 Route::post('/luubinhluan', [sanphamcontroller::class, 'luubinhluan']);
 Route::get('/cart', [sanphamcontroller::class, 'cart'])->name('cart');
 Route::get('/addcart/{idsp}/{soluong?}', [sanphamcontroller::class, 'addcart']);
+Route::post('/cart/update', [sanphamcontroller::class, 'update'])->name('cart.update');
+Route::post('/capnhatsl', [CartController::class, 'capNhatSoLuong']);
+
 Route::get('/xoasp/{idsp}', [sanphamcontroller::class, 'xoasp']);
 Route::get('/checkout', [sanphamcontroller::class, 'checkout']);
+Route::get('/momo/callback', [CartController::class, 'momoCallback'])->name('momo.callback');
+Route::post('/checkout', [CartController::class, 'checkout'])->name('cart.checkout');
+
+// Route::post('/checkout', [sanphamcontroller::class, 'submitForm'])->name('checkout.submit');
+
 Route::get('/shop', [sanphamcontroller::class, 'shop']);
 Route::get('/lienhe',[UserController::class,'lienhe']);
 //user
@@ -81,8 +89,16 @@ Route::group(['prefix' => 'admin', 'middleware' => [AdminMiddleware::class]], fu
     //sort xoa
     Route::get('sanphamde/khoi-phuc/{id}', [AdminSPController::class, 'khoiphuc']);
     Route::get('sanphamde/xoa-vinh-vien/{id}', [AdminSPController::class, 'xoavinhvien']);
+        
+
+
 
 });
+// Route::get('/cart', [CartController::class, 'index'])->name('cart.index');
+// Route::post('/cart/update', [CartController::class, 'update'])->name('cart.update');
+// Route::get('/cart/remove/{id}', [CartController::class, 'remove'])->name('cart.remove');
+// Route::post('/cart/apply-coupon', [CartController::class, 'applyCoupon'])->name('cart.applyCoupon');
+// Route::post('/cart/checkout', [CartController::class, 'checkout'])->name('cart.checkout');
 
 
 

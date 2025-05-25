@@ -1,5 +1,5 @@
 @extends('layout')
-@section('tieuDe', 'trang Chủ')
+@section('tieuDe', 'Trang Chủ')
 @section('conten')
 
 
@@ -46,14 +46,15 @@
                     <div class="col-md-12">
                         <div class="fashion-collection">
                             <div class="fashion-photo">
-                                <img src="/assets/img/product/10.jpg" alt="#">
+                                <img src="https://cdn.tgdd.vn/Files/2021/03/04/1332362/1_800x450.jpg" alt="#">
                             </div>
                             <div class="fashion-details">
                                 <h2>
-                                    <span class="color-white">20</span>24 <br>
+                                    <span class="color-white">20</span>25 <br>
                                     <span class="color-white">Laptop</span> ASUSA
                                 </h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi perspiciatis eius quis quam odio, error accusantium, quis ullam sint exercitationem mollitia accusa mus magnam debitis dolor culpa quibusdam animi adipisci ducimus magnam debi tis dolor culpa quibusdam animi adipisci ducimus natus?</p>
+                                <p>Thiết kế hiện đại, chất liệu cao cấp, phù hợp với mọi cá tính. Sản phẩm kết hợp giữa sự tinh tế và hiệu năng, mang đến trải nghiệm vượt trội cho người dùng yêu thích công nghệ và thời trang.
+                                Đừng bỏ lỡ – sự lựa chọn hàng đầu cho thế hệ mới!</p>
                                 <a href="#">View <span> collection</span></a>
                             </div>
                         </div>
@@ -261,7 +262,7 @@
                 <div class="row">
                     <div class="col-md-5 col-sm-5 col-xs-12">
                         <div class="product-banner">
-                            <a class="banner-photo" href="#"><img src="/assets/img/banner/1.jpg" alt="#" /></a>
+                            <a class="banner-photo" href="#"><img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.freepik.com%2Fpremium-psd%2Fhorizontal-web-banner-with-laptop-laptop-mockup_17957161.htm&psig=AOvVaw3L3X2koQ9iBI8CKfKlSUpE&ust=1747143940549000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCJj3rcWIno0DFQAAAAAdAAAAABAW" alt="#" /></a>
                             <div class="banner-brief">
                                 <h2>belt for mens</h2>
                                 <a href="#" class="shop-now">Shop Now</a>
@@ -544,14 +545,14 @@
                                 <div class="single-testimonial">
                                     <h2>Robert Miller</h2>
                                     <h3>Chairman</h3>
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting.</p>
+                                    <p>"Với hơn 20 năm kinh nghiệm trong ngành bán lẻ, tôi tin rằng công nghệ và phong cách cần đi đôi để tạo nên giá trị thật sự. Sứ mệnh của chúng tôi là mang đến cho khách hàng những sản phẩm vừa thời trang, vừa thông minh – kết nối mọi khía cạnh của cuộc sống hiện đại"</p>
                                 </div>
                             </div>
                             <div class="col-lg-12 col-md-12">
                                 <div class="single-testimonial">
                                     <h2>Robert Miller</h2>
                                     <h3>Chairman</h3>
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting.</p>
+                                    <p>"Với hơn 20 năm kinh nghiệm trong ngành bán lẻ, tôi tin rằng công nghệ và phong cách cần đi đôi để tạo nên giá trị thật sự. Sứ mệnh của chúng tôi là mang đến cho khách hàng những sản phẩm vừa thời trang, vừa thông minh – kết nối mọi khía cạnh của cuộc sống hiện đại"</p>
                                 </div>
                             </div>
                         </div>
@@ -593,8 +594,8 @@
                                     </div>
                                 </div>
                                 <div class="blog-brief">
-                                    <h3><a href="#">Blog Title Dummy</a></h3>
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.... </p>
+                                    <h3><a href="#">Blog Title Le Luong</a></h3>
+                                    <p>"Tôi đánh giá cao sự chỉn chu trong từng khâu phục vụ. Dù đặt hàng online nhưng cảm giác vẫn được chăm sóc như khách VIP tại cửa hàng."</p>
                                 </div>
                             </div>
                         </div>
@@ -620,8 +621,8 @@
                                     </div>
                                 </div>
                                 <div class="blog-brief">
-                                    <h3><a href="#">Blog Title Dummy</a></h3>
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.... </p>
+                                    <h3><a href="#">Blog Title Dong Trieu</a></h3>
+                                    <p>"Tôi thật sự ấn tượng với chất lượng sản phẩm và dịch vụ ở đây. Giao hàng nhanh, tư vấn nhiệt tình và đặc biệt là thiết kế rất thời trang. Sẽ tiếp tục ủng hộ dài lâu!" </p>
                                 </div>
                             </div>
                         </div>
@@ -647,8 +648,8 @@
                                     </div>
                                 </div>
                                 <div class="blog-brief">
-                                    <h3><a href="#">Blog Title Dummy</a></h3>
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.... </p>
+                                    <h3><a href="#">Blog Title Minh Anh</a></h3>
+                                    <p>"Sản phẩm giống y hình, chất lượng vượt mong đợi. Mình rất hài lòng, đặc biệt là cách đóng gói rất cẩn thận. Sẽ giới thiệu cho bạn bè!" </p>
                                 </div>
                             </div>
                         </div>

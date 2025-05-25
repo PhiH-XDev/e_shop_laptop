@@ -2,8 +2,10 @@
 
 namespace App\Http\Controllers;
 
-use DB;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\View;
+
 
 abstract class Controller
 {
@@ -45,10 +47,10 @@ abstract class Controller
     $loai_arr = DB::table('loai')->where('an_hien', 1)->orderBy('thu_tu')->get();
 
     // Chia sẻ dữ liệu với tất cả các view
-    \View::share('loai_arr', $loai_arr);
-    \View::share('cart', $cart);
-    \View::share('soluong', $totalQuantity);
-    \View::share('tongtien',  $totalPrice);
+    View::share('loai_arr', $loai_arr);
+    View::share('cart', $cart);
+    View::share('soluong', $totalQuantity);
+    View::share('tongtien',  $totalPrice);
 
     }
 }

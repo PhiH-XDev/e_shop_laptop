@@ -10,7 +10,7 @@
         <div class="row">
             <div class="col-xs-12">
                 <div class="page-banner-brief">
-                    <h2>Cửa Hàng</h2>
+                    <h2>Sản Phẩm</h2>
                 </div>
             </div>
         </div>
@@ -27,7 +27,7 @@
                         <a class="banner-photo" href="#"><img src="/assets/img/banner/1.jpg" alt="#" /></a>
                         <div class="banner-brief">
                             <h2>asus</h2>
-                            <a href="#" class="shop-now">mua nga</a>
+                            <a href="#" class="shop-now">mua ngay</a>
                         </div>
                     </div>
                 </div>

@@ -19,7 +19,7 @@ class AdminMiddleware
         if ($user && $user->role == 1) {
             return $next($request);
         } else {
-            // Kiểm tra xem route hiện tại có phải là 'admin/dangnhap' không để ngăn chặn vòng lặp
+          
             if (!$request->is('admin/dangnhap') && !$request->is('admin/dangnhap*')) {
                 $request->session()->put('prevurl', url()->current());
                 return redirect('admin/dangnhap')->with('thongbao', 'Bạn cần đăng nhập với vai trò admin');

@@ -7,11 +7,11 @@
  <section class="page-banner-area">
     <div class="col-xs-12">
         <div class="page-banner-brief">
-            <h2>Contact</h2>
+            <h2>Liên Hệ</h2>
             <nav>
                 <ul>
-                    <li><a href="/">Home</a></li>
-                    <li class="active"><a href="/lienhe">Contact</a></li>
+                    <li><a href="/">Trang Chủ</a></li>
+                    <li class="active"><a href="/lienhe">Liên Hệ</a></li>
                 </ul>
             </nav>
         </div>
@@ -36,12 +36,12 @@
                                 </div>
                                 <div class="col-sm-6 col-xs-12">
                                     <div class="contact-brief">
-                                        <h2 class="title-3">American</h2>
+                                        <h2 class="title-3">Hà Nội</h2>
                                         <ul>
                                             <li>
                                                 <i class="pe-7s-map-marker"></i>
-                                                <span>United Kingdom, American </span>
-                                                <span>Simple Street 15A</span>
+                                                <span>Đống Đa, Hà Nội </span>
+                                                <span>162 - 164 Thái Hà</span>
                                             </li>
                                             <li>
                                                 <i class="pe-7s-call"></i>
@@ -50,8 +50,8 @@
                                             </li>
                                             <li>
                                                 <i class="pe-7s-mail-open"></i>
-                                                <span>info@comanyname.com</span>
-                                                <span>companyname@gmail.com</span>
+                                                <span>thunnminn155@gmail.com.com</span>
+                                                <span>60fashion@gmail.com</span>
                                             </li>
                                         </ul>
                                     </div>
@@ -64,12 +64,12 @@
                             <div class="row">
                                 <div class="col-sm-6 col-xs-12">
                                     <div class="contact-brief contact-brief-2">
-                                        <h2 class="title-3">Bangladesh</h2>
+                                        <h2 class="title-3">Sài Gòn</h2>
                                         <ul>
                                             <li>
                                                 <i class="pe-7s-map-marker"></i>
-                                                <span>United Kingdom, American </span>
-                                                <span>Simple Street 15A</span>
+                                                <span>Quận 9, Thủ Đức </span>
+                                                <span>190 Lê Văn Việt</span>
                                             </li>
                                             <li>
                                                 <i class="pe-7s-call"></i>
@@ -78,8 +78,8 @@
                                             </li>
                                             <li>
                                                 <i class="pe-7s-mail-open"></i>
-                                                <span>info@comanyname.com</span>
-                                                <span>companyname@gmail.com</span>
+                                                <span>thunnminn155@gmail.com.com</span>
+                                                <span>69fahion@gmail.com</span>
                                             </li>
                                         </ul>
                                     </div>
@@ -102,12 +102,12 @@
                                 </div>
                                 <div class="col-sm-6 col-xs-12">
                                     <div class="contact-brief">
-                                        <h2 class="title-3">Netherlands </h2>
+                                        <h2 class="title-3">Long An </h2>
                                         <ul>
                                             <li>
                                                 <i class="pe-7s-map-marker"></i>
-                                                <span>United Kingdom, American </span>
-                                                <span>Simple Street 15A</span>
+                                                <span>Long An, Cần Giuộc </span>
+                                                <span>Nguyễn Thị Bảy</span>
                                             </li>
                                             <li>
                                                 <i class="pe-7s-call"></i>
@@ -116,8 +116,8 @@
                                             </li>
                                             <li>
                                                 <i class="pe-7s-mail-open"></i>
-                                                <span>info@comanyname.com</span>
-                                                <span>companyname@gmail.com</span>
+                                                <span>thunnminn155@gmail.com</span>
+                                                <span>69fashiono@gmail.com</span>
                                             </li>
                                         </ul>
                                     </div>

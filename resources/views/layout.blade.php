@@ -54,7 +54,7 @@
                                 <li>
                                     <a href="#"><span><i class="pe-7s-clock"></i></span>
 
-                                        Mon-fri: 9:00-19:00</a>
+                                        Thứ 2 - Thứ 7 | 8:00 - 21:00</a>
                                 </li>
                             </ul>
                             <ul class="top-menu top-menu-left hidden-sm">
@@ -85,7 +85,7 @@
          <li> -->
                             <div class="header-search">
                                 <form action="#">
-                                    <input class="top-search" type="text" placeholder="Search Here...">
+                                    <input class="top-search" type="text" placeholder="Tìm Kiếm...">
                                     <button type="submit"><i class="pe-7s-search"></i></button>
                                 </form>
                             </div>
@@ -126,7 +126,7 @@
                     <!-- Logo Start -->
                     <div class="col-md-2 col-sm-6">
                         <div class="logo">
-                            <a href="index.html"><img src="/assets/img/logo.png" alt="69 Fashion"></a>
+                        <a href="/"><img src="/assets/img/logo.png" alt="69 Fashion"></a>
                         </div>
                     </div>
                     <!-- Logo End -->
@@ -178,18 +178,19 @@
                                     {{-- <li><a href="shop-list.html">Men</a></li> --}}
                                     {{-- <li><a href="#">page's</a>
                                         <ul class="submenu">
-                                            <li><a href="about.html">About Us</a></li>
-                                            <li><a href="cart.html">Shopping Cart</a></li>
-                                            <li><a href="checkout.html">Checkout</a></li>
-                                            <li><a href="wishlist.html">Wishlist</a></li>
-                                            <li><a href="my-account.html">My Account</a></li>
-                                            <li><a href="shop.html">Shop Grid View</a></li>
-                                            <li><a href="shop-list.html">Shop List View</a></li>
-                                            <li><a href="single-product.html">Single-Product</a></li>
-                                            <li><a href="single-blog.html">Single-blog</a></li>
-                                            <li><a href="404.html">404 Page</a></li>
-                                            <li><a href="/login">Login</a></li>
-                                            <li><a href="contact.html">Contact</a></li>
+                                        <li><a href="about.html">Về Chúng Tôi</a></li>
+<li><a href="cart.html">Giỏ Hàng</a></li>
+<li><a href="checkout.html">Thanh Toán</a></li>
+<li><a href="wishlist.html">Danh Sách Yêu Thích</a></li>
+<li><a href="my-account.html">Tài Khoản Của Tôi</a></li>
+<li><a href="shop.html">Cửa Hàng Lưới</a></li>
+<li><a href="shop-list.html">Cửa Hàng Danh Sách</a></li>
+<li><a href="single-product.html">Sản Phẩm Đơn</a></li>
+<li><a href="single-blog.html">Blog Đơn</a></li>
+<li><a href="404.html">Trang 404</a></li>
+<li><a href="/login">Đăng Nhập</a></li>
+<li><a href="contact.html">Liên Hệ</a></li>
+
                                         </ul>
                                     </li> --}}
                                     {{-- <li><a href="blog.html">Blog</a></li> --}}
@@ -279,33 +280,34 @@
                     <div class="mobile-menu">
                         <nav id="dropdown">
                             <ul>
-                                <li><a href="/">Home</a>
-                                    {{-- <ul class="submenu">
-											<li><a href="index.html">Home Page 1</a></li>
-											<li><a href="index-2.html">Home Page 2</a></li>
-										</ul> --}}
-                                </li>
-                                <li><a href="about.html">About Us</a></li>
-                                <li><a href="shop.html">Women</a></li>
-                                <li><a href="shop-list.html">Men</a></li>
-                                <li><a href="#">page's</a>
+                            <li><a href="/">Trang Chủ</a>
+    {{-- <ul class="submenu">
+        <li><a href="index.html">Trang Chủ 1</a></li>
+        <li><a href="index-2.html">Trang Chủ 2</a></li>
+    </ul> --}}
+</li>
+<li><a href="about.html">Về Chúng Tôi</a></li>
+<li><a href="shop.html">Phụ Nữ</a></li>
+<li><a href="shop-list.html">Nam Giới</a></li>
+<li><a href="#">Trang</a></li>
+
                                     <ul class="submenu">
-                                        <li><a href="about.html">About Us</a></li>
-                                        <li><a href="cart.html">Shopping Cart</a></li>
-                                        <li><a href="checkout.html">Checkout</a></li>
-                                        <li><a href="wishlist.html">Wishlist</a></li>
-                                        <li><a href="my-account.html">My Account</a></li>
-                                        <li><a href="shop.html">Shop Grid View</a></li>
-                                        <li><a href="shop-list.html">Shop List View</a></li>
-                                        <li><a href="single-product.html">Single-Product</a></li>
-                                        <li><a href="single-blog.html">Single-blog</a></li>
-                                        <li><a href="404.html">404 Page</a></li>
-                                        <li><a href="login.html">Login</a></li>
-                                        <li><a href="contact.html">Contact</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="blog.html">Blog</a></li>
-                                <li><a href="contact.html">Contact</a></li>
+                                    <li><a href="about.html">Về Chúng Tôi</a></li>
+<li><a href="cart.html">Giỏ Hàng</a></li>
+<li><a href="checkout.html">Thanh Toán</a></li>
+<li><a href="wishlist.html">Danh Sách Yêu Thích</a></li>
+<li><a href="my-account.html">Tài Khoản Của Tôi</a></li>
+<li><a href="shop.html">Cửa Hàng Lưới</a></li>
+<li><a href="shop-list.html">Cửa Hàng Danh Sách</a></li>
+<li><a href="single-product.html">Sản Phẩm Đơn</a></li>
+<li><a href="single-blog.html">Blog Đơn</a></li>
+<li><a href="404.html">Trang 404</a></li>
+<li><a href="login.html">Đăng Nhập</a></li>
+<li><a href="contact.html">Liên Hệ</a></li>
+</ul>
+</li>
+<li><a href="blog.html">Blog</a></li>
+<li><a href="contact.html">Liên Hệ</a></li>
                             </ul>
                         </nav>
                     </div>
@@ -326,9 +328,7 @@
                             <div class="footer-logo">
                                 <img src="/assets/img/logo.png" alt="" />
                             </div>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
-                                has been the industry's standard dummy text ever since the 1500s, when an unknown
-                                printer took a galley of type and scrambled it to make a type specimen book.</p>
+                            <p>"Mọi thứ bạn cần – Chỉ một cú click - Chất lượng dẫn đầu – Công nghệ trong tầm tay"</p>
                             <div class="social-media">
                                 <a href=""><i class="fa fa-twitter"></i></a>
                                 <a href=""><i class="fa fa-google-plus"></i></a>
@@ -347,12 +347,12 @@
                 <div class="row">
                     <div class="col-lg-3 col-md-4 col-sm-4">
                         <div class="single-footer footer-about">
-                            <h4 class="widget-title title-top-border">Contact us</h4>
+                            <h4 class="widget-title title-top-border">Liên Hệ</h4>
                             <ul>
                                 <li>
                                     <i class="pe-7s-map-marker"></i>
-                                    <span>United Kingdom, London</span><br>
-                                    <span> Simple Street 15A </span>
+                                    <span>Cần Giuộc, Long An</span><br>
+                                    <span> Nguyễn Thị Bảy </span>
                                 </li>
                                 <li>
                                     <i class="pe-7s-call"></i>
@@ -362,38 +362,40 @@
                                 </li>
                                 <li>
                                     <i class="pe-7s-mail-open"></i>
-                                    <span>info@comanyname.com</span><br>
-                                    <span>companyname@gmail.com</span>
+                                    <span>thunnminn155@gmail.com</span><br>
+                                    <span>69fashion@gmail.com</span>
                                 </li>
                             </ul>
                         </div>
                     </div>
                     <div class="col-lg-2 hidden-md hidden-sm">
                         <div class="single-footer footer-menu">
-                            <h4 class="widget-title title-top-border">our offers</h4>
+                            <h4 class="widget-title title-top-border">Danh Mục</h4>
                             <nav>
                                 <ul>
-                                    <li><a href="#">New Collection</a></li>
-                                    <li><a href="#">Best Sellers</a></li>
-                                    <li><a href="#">Manufacturers</a></li>
-                                    <li><a href="#">New Products</a></li>
-                                    <li><a href="#">Suppliers</a></li>
-                                    <li><a href="#">Delivery & Returns</a></li>
+                                <li><a href="#">Bộ Sưu Tập Mới</a></li>
+<li><a href="#">Sản Phẩm Bán Chạy Nhất</a></li>
+<li><a href="#">Nhà Sản Xuất</a></li>
+<li><a href="#">Sản Phẩm Mới</a></li>
+<li><a href="#">Nhà Cung Cấp</a></li>
+<li><a href="#">Vận Chuyển & Đổi Trả</a></li>
+
                                 </ul>
                             </nav>
                         </div>
                     </div>
                     <div class="col-lg-2 col-md-4 col-sm-4">
                         <div class="single-footer footer-menu">
-                            <h4 class="widget-title title-top-border">my account</h4>
+                            <h4 class="widget-title title-top-border">Tài Khoản</h4>
                             <nav>
                                 <ul>
-                                    <li><a href="#">My Account</a></li>
-                                    <li><a href="#">Office Information</a></li>
-                                    <li><a href="#">Address</a></li>
-                                    <li><a href="#">Discount</a></li>
-                                    <li><a href="#">Order History</a></li>
-                                    <li><a href="#">My Credit Slip</a></li>
+                                <li><a href="#">Tài Khoản Của Tôi</a></li>
+<li><a href="#">Thông Tin Văn Phòng</a></li>
+<li><a href="#">Địa Chỉ</a></li>
+<li><a href="#">Giảm Giá</a></li>
+<li><a href="#">Lịch Sử Đơn Hàng</a></li>
+<li><a href="#">Phiếu Tín Dụng Của Tôi</a></li>
+
                                 </ul>
                             </nav>
                         </div>
@@ -411,11 +413,11 @@
                     </div>
                     <div class="col-lg-3 col-md-4 col-sm-4">
                         <div class="single-footer newslatter">
-                            <h4 class="widget-title title-top-border">newslatter</h4>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting.</p>
+                            <h4 class="widget-title title-top-border">Bản tin</h4>
+                            <p>Đăng ký để nhận ưu đãi, xu hướng mới và thông tin khuyến mãi mỗi tuần!</p>
                             <form action="#">
-                                <input type="text" name="email" placeholder="Enter your email..." />
-                                <input type="submit" value="Subscribe" />
+                                <input type="text" name="email" placeholder="Nhập email của bạn..." />
+                                <input type="submit" value="Đăng kí" />
                             </form>
                         </div>
                     </div>
@@ -429,8 +431,8 @@
                 <div class="row">
                     <div class="col-sm-8">
                         <div class="copyright">
-                            <p>Copyright &copy; <a href="#" target="_blank"><b> Codecarnival </b></a> All rights
-                                reserved.</p>
+                            <p>Bản quyền &copy; <a href="#" target="_blank"><b> 69 Fashion. </b></a>Mọi quyền lợi đều được bảo vệ.
+                                </p>
                         </div>
                     </div>
                     <div class="col-sm-4">
@@ -466,16 +468,16 @@
                             </div><!-- .product-images -->
 
                             <div class="product-info">
-                                <h1>Aenean eu tristique</h1>
+                                <h1>"Thiết kế hiện đại, hiệu năng mạnh mẽ – sẵn sàng cho mọi nhu cầu công nghệ của bạn."</h1>
                                 <div class="price-box-3">
                                     <hr />
                                     <div class="s-price-box">
-                                        <span class="new-price">$160.00</span>
-                                        <span class="old-price">$190.00</span>
+                                        <span class="new-price"> 4.000.000 VNĐ</span>
+                                        <span class="old-price">4.932.400 VNĐ</span>
                                     </div>
                                     <hr />
                                 </div>
-                                <a href="shop.html" class="see-all">See all features</a>
+                                <a href="shop.html" class="see-all">Xem tất cả tính năng</a>
                                 <div class="quick-add-to-cart">
                                     <form method="post" class="cart">
                                         <div class="numbers-row">
@@ -485,8 +487,7 @@
                                     </form>
                                 </div>
                                 <div class="quick-desc">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam fringilla augue nec est
-                                    tristique auctor. Donec non est at libero.
+                                Thiết bị điện tử hiện đại với công nghệ tiên tiến, hiệu suất mạnh mẽ và độ bền cao. Lựa chọn hoàn hảo cho công việc, giải trí và học tập. Đặt mua ngay để nhận bảo hành chính hãng và giao hàng tận nơi!
                                 </div>
                                 <div class="social-sharing">
                                     <div class="widget widget_socialsharing_widget">
@@ -528,8 +529,8 @@
                 </svg>
               </div>
               <div class="icon-box-content">
-                <h3 class="card-title text-uppercase text-dark">Free delivery</h3>
-                <p>Consectetur adipi elit lorem ipsum dolor sit amet.</p>
+                <h3 class="card-title text-uppercase text-dark">Giao hàng miễn phí</h3>
+                <p>Chúng tôi giao hàng nhanh chóng và hoàn toàn miễn phí.</p>
               </div>
             </div>
           </div>
@@ -541,8 +542,8 @@
                 </svg>
               </div>
               <div class="icon-box-content">
-                <h3 class="card-title text-uppercase text-dark">Quality guarantee</h3>
-                <p>Dolor sit amet orem ipsu mcons ectetur adipi elit.</p>
+                <h3 class="card-title text-uppercase text-dark">Đảm bảo chất lượng</h3>
+                <p>Sản phẩm đạt chất lượng cao, được chọn lọc kỹ lưỡng.</p>
               </div>
             </div>
           </div>
@@ -554,8 +555,8 @@
                 </svg>
               </div>
               <div class="icon-box-content">
-                <h3 class="card-title text-uppercase text-dark">Daily offers</h3>
-                <p>Amet consectetur adipi elit loreme ipsum dolor sit.</p>
+                <h3 class="card-title text-uppercase text-dark">Ưu đãi mỗi ngày</h3>
+                <p>Nhiều chương trình khuyến mãi hấp dẫn diễn ra hàng ngày.</p>
               </div>
             </div>
           </div>
@@ -567,8 +568,8 @@
                 </svg>
               </div>
               <div class="icon-box-content">
-                <h3 class="card-title text-uppercase text-dark">100% secure payment</h3>
-                <p>Rem Lopsum dolor sit amet, consectetur adipi elit.</p>
+                <h3 class="card-title text-uppercase text-dark">Thanh toán an toàn 100%</h3>
+                <p>Cam kết bảo mật thông tin và an toàn trong mọi giao dịch.</p>
               </div>
             </div>
           </div>

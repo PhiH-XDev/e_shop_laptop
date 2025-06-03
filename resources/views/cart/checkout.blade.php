@@ -95,163 +95,20 @@
                         </div>
                     </div>
                     <!-- Shipping-Address End -->
-                    <div class="col-sm-6">
-                        <div class="billing-address margin-65">
-                            <h2 class="title-3">Địa chỉ thanh toán</h2>
-                            <div class="row">
-                                <div class="col-sm-6">
-                                    <input type="text" class="custom-form" placeholder="Tên" name="billing_firstname" />
-                                </div>
-                                <div class="col-sm-6">
-                                    <input type="text" class="custom-form" placeholder="Họ" name="billing_lastname" />
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <input type="text" class="custom-form" placeholder="Địa chỉ văn phòng" name="billing_office_address" />
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <input type="text" class="custom-form" placeholder="Địa chỉ nhà" name="billing_home_address" />
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-sm-6">
-                                    <select class="custom-select custom-form" name="billing_city">
-                                        <option>Thành phố</option>
-                                        <option>Hà Nội</option>
-                                        <option>TP Hồ Chí Minh</option>
-                                        <option>Đà Nẵng</option>
-                                        <option>Hải Phòng</option>
-                                    </select>
-                                </div>
-                                <div class="col-sm-6">
-                                    <select class="custom-select custom-form" name="billing_country">
-                                        <option>Quốc gia</option>
-                                        <option>Việt Nam</option>
-                                        <option>Hoa Kỳ</option>
-                                        <option>Vương quốc Anh</option>
-                                        <option>Úc</option>
-                                    </select>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-sm-6">
-                                    <select class="custom-select custom-form" name="billing_postal_code">
-                                        <option>Mã bưu chính</option>
-                                        <option>012345</option>
-                                        <option>0123456</option>
-                                        <option>01234567</option>
-                                        <option>012345678</option>
-                                    </select>
-                                </div>
-                                <div class="col-sm-6">
-                                    <input class="custom-form" type="password" placeholder="Mật khẩu" name="billing_password" />
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-sm-6">
-                                    <input type="text" class="custom-form" placeholder="Số điện thoại di động" name="billing_mobile_phone" />
-                                </div>
-                                <div class="col-sm-6">
-                                    <input type="text" class="custom-form" placeholder="Số điện thoại" name="billing_phone" />
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <input type="email" class="custom-form" placeholder="Email" name="billing_email" />
-                                </div>
-                            </div>
-                            <div class="checkbox">
-                                <label>
-                                    <input type="checkbox" checked="checked" name="create_account" />
-                                    Tạo tài khoản?
-                                </label>
-                                <label>
-                                    <input type="checkbox" name="skip_billing_address" />
-                                    Bỏ qua địa chỉ thanh toán
-                                </label>
-                            </div>
-                        </div>
-                    </div>
                 </div>
                 <div class="row">
                     <!-- Enter-Payment Start -->
-                    <div class="col-md-9 col-sm-7">
-                        <div class="enter-payment margin-65">
-                            <h2 class="title-3">Nhập thông tin thanh toán</h2>
-                            <div class="row">
-                                <div class="col-sm-5">
-                                    <input type="text" class="custom-form" placeholder="Loại thẻ" name="card_type" />
-                                </div>
-                                <div class="col-sm-7">
-                                    <input type="text" class="custom-form" placeholder="Số thẻ" name="card_number" />
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-5">
-                                    <div class="row">
-                                        <div class="col-sm-6">
-                                            <select class="custom-select custom-form" name="card_exp_month">
-                                                <option>Tháng</option>
-                                                <option>Tháng 1</option>
-                                                <option>Tháng 2</option>
-                                                <option>Tháng 3</option>
-                                                <option>Tháng 4</option>
-                                            </select>
-                                        </div>
-                                        <div class="col-sm-6">
-                                            <select class="custom-select custom-form" name="card_exp_year">
-                                                <option>Năm</option>
-                                                <option>2016</option>
-                                                <option>2017</option>
-                                                <option>2018</option>
-                                                <option>2019</option>
-                                            </select>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-7 col-sm-12">
-                                    <input type="text" class="custom-form" placeholder="Mã bảo mật thẻ" name="card_cvv" />
-                                </div>
-                            </div>
-                            {{-- <div class="row">
-                                <div class="col-sm-4">
-                                    <input type="submit" class="custom-form custom-submit no-margin" value="Thanh toán ngay" />
-                                </div>
-                                <div class="col-sm-4">
-                                    <input type="reset" class="custom-form custom-submit no-margin" value="Hủy đơn hàng" />
-                                </div>
-                                <div class="col-sm-4">
-                                    <a class="custom-form custom-submit no-margin" href="/checkout/submit">Tiếp tục mua sắm</a>
-                                </div>
-                            </div> --}}
-
-                            <div class="row">
-                            <div class="col-sm-4">
-                                <button type="submit" class="custom-form custom-submit no-margin">Thanh toán bằng MoMo</button>
-                            </div>
-                            <div class="col-sm-4">
-                                <input type="reset" class="custom-form custom-submit no-margin" value="Hủy đơn hàng" />
-                            </div>
-                            <div class="col-sm-4">
-                                <a class="custom-form custom-submit no-margin" href="/checkout/submit">Tiếp tục mua sắm</a>
-                            </div>
-                        </div>
-
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-5">
-                        <div class="order margin-65">
+                   
+                    <div class="col-md-6 col-sm-6">
+                        <div class="order">
                             <h2 class="title-3">Xem lại đơn hàng của bạn</h2>
                             <div>
                                 <table class="table">
                                     <tbody>
                                         @foreach ($cart as $item)
                                         <tr>
-                                            <td class="text-left">{{ $item['ten_sp'] ?? '' }}</td>
-                                            <td class="text-right">{{ $item['soluong'] ?? 0 }}</td>
+                                            <td class="text-left fw-bold">{{ $item['ten_sp'] ?? '' }}</td>
+                                            <td class="text-right fw-bold">{{ $item['soluong'] ?? 0 }}</td>
                                         </tr>
                                         @endforeach
                                         <tr>
@@ -277,6 +134,17 @@
                     </div>
                     <!-- Enter-Payment End -->
                 </div>
+                <div class="row">
+                        <div class="col-sm-4">
+                            <button type="submit" class="custom-form custom-submit no-margin btn btn-primary">Thanh toán bằng MoMo</button>
+                        </div>
+                        <div class="col-sm-4">
+                            <input type="reset" class="custom-form custom-submit no-margin" value="Hủy đơn hàng" />
+                        </div>
+                        <div class="col-sm-4">
+                            <a class="custom-form custom-submit no-margin" href="/checkout/submit">Tiếp tục mua sắm</a>
+                        </div>
+                    </div>
             </form>
         </div>
     </div>

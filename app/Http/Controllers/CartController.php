@@ -4,6 +4,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\TransactionModel;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Http;
 use Session;
@@ -44,20 +45,20 @@ class CartController extends Controller
 
     public function checkout()
     {
-        // Logic thanh toán, ví dụ lưu vào DB
-        // session()->forget('cart');
-        // session()->forget('discount');
-        // return redirect()->route('cart.cart')->with('success', 'Thanh toán thành công!');
-
         $cart = session()->get('cart', []);
         if (empty($cart)) {
             return redirect()->route('cart.index')->with('error', 'Giỏ hàng trống!');
         }
 
         $total = 0;
+        $quantity = 0;
+
         foreach ($cart as $item) {
             $total += $item['gia'] * $item['soluong'];
+            $quantity += $item['soluong'];
+            $nameProductList[] = $item['ten_sp'];
         }
+        $nameProduct = implode(', ', $nameProductList);
 
         $discount = session()->get('discount', 0);
         $payableAmount = $total * (1 - $discount);
@@ -69,6 +70,19 @@ class CartController extends Controller
 
         $orderId = uniqid('order_');
         $orderInfo = "Thanh toán đơn hàng từ giỏ hàng";
+
+         $transaction = TransactionModel::create([
+            'name' => $nameProduct,
+            'quantity' => $quantity,
+            'total_price' => $payableAmount,
+            'transaction_date' => now(),
+            'transaction_code' => $orderId,
+            'phone' => auth()->user()->phone ?? null,
+            'email' => auth()->user()->email ?? null,
+            'address' => auth()->user()->address ?? null,
+            'status' => 0,
+        ]);
+
         $redirectUrl = route('momo.callback');
         $ipnUrl = route('momo.callback');
         $extraData = "";
@@ -130,11 +144,23 @@ class CartController extends Controller
 
     public function momoCallback(Request $request)
     {
-        if ($request->resultCode == 0) {
+        $orderId = $request->orderId ?? null;
+
+        $transaction = TransactionModel::where('transaction_code', $orderId)->first();
+
+        if ($request->resultCode == 0 && $transaction) {
+           $transaction = TransactionModel::where('transaction_code', $orderId)->first();
+            $transaction->status = 1; 
+            $transaction->save();
+        
             session()->forget('cart');
             session()->forget('discount');
             return redirect()->route('home')->with('success', 'Thanh toán thành công!');
         } else {
+            if ($transaction) {
+                $transaction->status = -1; // thất bại
+                $transaction->save();
+            }
             return redirect()->route('home')->with('error', 'Thanh toán thất bại!');
         }
     }

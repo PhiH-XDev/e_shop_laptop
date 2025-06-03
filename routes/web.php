@@ -9,6 +9,7 @@ use Illuminate\Foundation\Auth\EmailVerificationRequest;
 use App\Http\Controllers\AdminController;
 use App\Http\Controllers\AdminSPController;
 use App\Http\Controllers\CartController;
+use App\Http\Controllers\TransactionController;
 use App\Http\Controllers\UserController;
 
 use Illuminate\Http\Request;
@@ -89,7 +90,8 @@ Route::group(['prefix' => 'admin', 'middleware' => [AdminMiddleware::class]], fu
     //sort xoa
     Route::get('sanphamde/khoi-phuc/{id}', [AdminSPController::class, 'khoiphuc']);
     Route::get('sanphamde/xoa-vinh-vien/{id}', [AdminSPController::class, 'xoavinhvien']);
-        
+    Route::resource('transaction', TransactionController::class);
+
 
 
 

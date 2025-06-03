@@ -6,40 +6,6 @@
 
     <!-- SLIDER-AREA END -->
     <section class="content">
-        <!-- CATEGORY-PRODUCT-AREA START -->
-        {{-- <div class="category-product-area">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="single-category border-hover">
-                        <a href="#"><img src="/assets/img/product/category/1.jpg" alt=""></a>
-                        <h2>Fashion</h2>
-                        <span><a class="shop-now" href="single-blog.html">Shop Now</a></span>
-                    </div>
-                    <div class="single-category border-hover">
-                        <a href="#"><img src="/assets/img/product/category/2.jpg" alt=""></a>
-                        <h2>New Shirt</h2>
-                        <span><a class="shop-now" href="single-blog.html">Shop Now</a></span>
-                    </div>
-                    <div class="single-category border-hover">
-                        <a href="#"><img src="/assets/img/product/category/3.jpg" alt=""></a>
-                        <h2>Fashion</h2>
-                        <span><a class="shop-now" href="single-blog.html">Shop Now</a></span>
-                    </div>
-                    <div class="single-category border-hover">
-                        <a href="#"><img src="/assets/img/product/category/4.jpg" alt=""></a>
-                        <h2>New Bag</h2>
-                        <span><a class="shop-now" href="single-blog.html">Shop Now</a></span>
-                    </div>
-                    <div class="single-category border-hover">
-                        <a href="#"><img src="/assets/img/product/category/5.jpg" alt=""></a>
-                        <h2>New Shoes</h2>
-                        <span><a class="shop-now" href="single-blog.html">Shop Now</a></span>
-                    </div>
-                </div>
-            </div>
-        </div> --}}
-        <!-- CATEGORY-PRODUCT-AREA END -->
-        <!-- FASHION-COLLECTION-AREA START -->
         <div class="fashion-collection-area">
             <div class="container">
                 <div class="row">
@@ -48,71 +14,26 @@
                             <div class="fashion-photo">
                                 <img src="https://cdn.tgdd.vn/Files/2021/03/04/1332362/1_800x450.jpg" alt="#">
                             </div>
-                            <div class="fashion-details">
+                            <div class="fashion-details pt-2">
                                 <h2>
                                     <span class="color-white">20</span>25 <br>
-                                    <span class="color-white">Laptop</span> ASUSA
+                                    <span class="color-white">La</span>ptop ASUSA
                                 </h2>
-                                <p>Thiết kế hiện đại, chất liệu cao cấp, phù hợp với mọi cá tính. Sản phẩm kết hợp giữa sự tinh tế và hiệu năng, mang đến trải nghiệm vượt trội cho người dùng yêu thích công nghệ và thời trang.
+                                <div class="mt-2">
+
+                                </div>
+                                <p class="">Thiết kế hiện đại, chất liệu cao cấp, phù hợp với mọi cá tính. Sản phẩm kết hợp giữa sự tinh tế và hiệu năng, mang đến trải nghiệm vượt trội cho người dùng yêu thích công nghệ và thời trang.
                                 Đừng bỏ lỡ – sự lựa chọn hàng đầu cho thế hệ mới!</p>
-                                <a href="#">View <span> collection</span></a>
+                                <div class="view-collection-wrapper">
+                                    <a href="#" class="view-collection-btn">View collection</a>
+                                </div>
                             </div>
                         </div>
                     </div>
+
                 </div>
             </div>
         </div>
-
-         {{-- <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="single-product">
-                        @foreach($spnoibat_arr as $sp)
-                        <div class="product-img">
-
-                            <div class="label-new">
-                                <span class="new">Hot</span>
-                            </div>
-                            <div class="label-parcent">
-                                <span class="parcent">-45%</span>
-                            </div>
-
-                            <a class="pro-image" href="#">
-                                <img class="primary-image" src=" {{$sp->hinh}}" alt="#">
-                                <img class="secondary-image" src="/assets/img/product/featured/2.jpg" alt="#">
-                            </a>
-                            <div class="pro-actions">
-                                <a class="action-btn action-btn-1" href="cart.html"><i class="pe-7s-cart"></i><span>Thêm vào giỏ</span></a>
-                                <a class="action-btn" href="wishlist.html" data-toggle="tooltip" data-original-title="Add to Wishlist"><i class="pe-7s-like"></i></a>
-                                <a class="action-btn" href="#" data-toggle="tooltip" data-original-title="Compare"><i class="pe-7s-repeat"></i></a>
-                            </div>
-                        </div>
-
-                        <div class="product-content">
-                            <h2 class="product-name">
-                                <a href="#">{{$sp->ten_sp}} </a>
-                            </h2>
-                            <div class="pro-rating">
-                                <a href="#"><i class="fa fa-star"></i></a>
-                                <a href="#"><i class="fa fa-star"></i></a>
-                                <a href="#"><i class="fa fa-star"></i></a>
-                                <a href="#"><i class="fa fa-star-half-o"></i></a>
-                                <a href="#"><i class="fa fa-star-o"></i></a>
-                            </div>
-                            <div class="price-box">
-                                <span class="new-price">{{ number_format( $sp->gia , 0 , "," , ".") }} VNĐ </span>
-                            </div>
-                        </div>
-                        @endforeach
-                    </div>
-                </div>
-
-
-
-            </div>
-
-        </div> --}}
-
 
         <div class="featured-products-area">
             <div class="container">
@@ -154,7 +75,7 @@
                                     </div>
                                     <div class="product-content">
                                         <h2 class="product-name">
-                                            <a href="/sp/{{$sp->id}}" >{{$sp->ten_sp}}</a>
+                                            <a class="name_product" href="/sp/{{$sp->id}}" >{{$sp->ten_sp}}</a>
                                         </h2>
                                         <div class="pro-rating">
                                             <a href="#"><i class="fa fa-star"></i></a>
@@ -193,7 +114,7 @@
                                     </div>
                                     <div class="product-content">
                                         <h2 class="product-name">
-                                            <a href="/sp/{{$sp->id}}" >{{$sp->ten_sp}}</a>
+                                            <a class="name_product" href="/sp/{{$sp->id}}" >{{$sp->ten_sp}}</a>
                                         </h2>
                                         <div class="pro-rating">
                                             <a href="#"><i class="fa fa-star"></i></a>
@@ -232,7 +153,7 @@
                                     </div>
                                     <div class="product-content">
                                         <h2 class="product-name">
-                                            <a href="/sp/{{$sp->id}}" >{{$sp->ten_sp}}</a>
+                                            <a class="name_product" href="/sp/{{$sp->id}}" >{{$sp->ten_sp}}</a>
                                         </h2>
                                         <div class="pro-rating">
                                             <a href="#"><i class="fa fa-star"></i></a>
@@ -289,7 +210,7 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="area-title title-top-border">
-                            <h2>Sản Mới</h2>
+                            <h2>Sản Phẩm Mới</h2>
                         </div>
                     </div>
                 </div>
@@ -305,15 +226,12 @@
                         <div class="col-md-10 col-sm-12">
                             <div class="active-arrival-carousel navigation-top">
                                 <div class="sin-items">
-
-
-
                                 </div>
                                 @php
-    $columns = [[], [], []];
-    foreach ($spgiamsoc_arr as $index => $sp) {
-        $columns[$index % 3][] = $sp;
-    }
+                            $columns = [[], [], []];
+                            foreach ($spgiamsoc_arr as $index => $sp) {
+                                $columns[$index % 3][] = $sp;
+                            }
 @endphp
 
 <div class="container">
@@ -407,127 +325,7 @@
     </div>
 </div>
 
-                                {{-- <div class="sin-items">
-                                    <div class="row">
-                                        <div class="col-sm-5 arrival-1">
-                                            <!-- Single-Product Start -->
-                                            <div class="single-product">
-                                                <div class="product-img">
-                                                    <div class="label-new">
-                                                        <span class="new">New</span>
-                                                    </div>
-                                                    <div class="label-parcent">
-                                                        <span class="parcent">-40%</span>
-                                                    </div>
-                                                    <a class="pro-image" href="#">
-                                                        <img class="primary-image" src="/assets/img/product/arrival/1-bg.jpg" alt="#">
-                                                        <img class="secondary-image" src="/assets/img/product/arrival/1.jpg" alt="#">
-                                                    </a>
-                                                    <div class="pro-actions large-pro-actions">
-                                                        <a class="action-btn action-btn-1" href="cart.html"><i class="pe-7s-cart"></i><span>Add to Cart</span></a>
-                                                        <a class="action-btn modal-view" href="#" data-toggle="modal"  data-target="#productModal" title="Quick View"><i class="pe-7s-look"></i></a>
-                                                        <a class="action-btn" href="wishlist.html" data-toggle="tooltip" data-original-title="Add to Wishlist"><i class="pe-7s-like"></i></a>
-                                                        <a class="action-btn" href="#" data-toggle="tooltip" data-original-title="Compare"><i class="pe-7s-repeat"></i></a>
-                                                    </div>
-                                                    <div class="pro-name-price">
-                                                        <h3><a href="#">Men's Dresses</a></h3>
-                                                        <h4>$85.00</h4>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- Single-Product End -->
-                                        </div>
-                                        <div class="col-sm-7  arrival-2">
-                                            <div class="row">
-                                                <!-- Single-Product Start -->
-                                                <div class="col-sm-6">
-                                                    <div class="single-product">
-                                                        <div class="product-img">
-                                                            <div class="label-parcent">
-                                                                <span class="parcent">Sale</span>
-                                                            </div>
-                                                            <a class="pro-image" href="#">
-                                                                <img class="primary-image" src="/assets/img/product/arrival/2.jpg" alt="#">
-                                                                <img class="secondary-image" src="/assets/img/product/arrival/3.jpg" alt="#">
-                                                            </a>
-                                                            <div class="pro-actions">
-                                                                <a class="action-btn action-btn-1" href="cart.html"><i class="pe-7s-cart"></i><span>Add to Cart</span></a>
-                                                                <a class="action-btn" href="wishlist.html" data-toggle="tooltip" data-original-title="Add to Wishlist"><i class="pe-7s-like"></i></a>
-                                                                <a class="action-btn" href="#" data-toggle="tooltip" data-original-title="Compare"><i class="pe-7s-repeat"></i></a>
-                                                            </div>
-                                                            <div class="pro-name-price">
-                                                                <h3><a href="#">back t-shirt</a></h3>
-                                                                <h4>$55.00</h4>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="single-product">
-                                                        <div class="product-img">
-                                                            <a class="pro-image" href="#">
-                                                                <img class="primary-image" src="/assets/img/product/arrival/3.jpg" alt="#">
-                                                                <img class="secondary-image" src="/assets/img/product/arrival/4.jpg" alt="#">
-                                                            </a>
-                                                            <div class="pro-actions">
-                                                                <a class="action-btn action-btn-1" href="cart.html"><i class="pe-7s-cart"></i><span>Add to Cart</span></a>
-                                                                <a class="action-btn" href="wishlist.html" data-toggle="tooltip" data-original-title="Add to Wishlist"><i class="pe-7s-like"></i></a>
-                                                                <a class="action-btn" href="#" data-toggle="tooltip" data-original-title="Compare"><i class="pe-7s-repeat"></i></a>
-                                                            </div>
-                                                            <div class="pro-name-price">
-                                                                <h3><a href="#">White t-shirt</a></h3>
-                                                                <h4>$25.00</h4>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <!-- Single-Product End -->
-                                                <!-- Single-Product Start -->
-                                                <div class="col-sm-6">
-                                                    <div class="single-product">
-                                                        <div class="product-img">
-                                                            <div class="label-new">
-                                                                <span class="new">New</span>
-                                                            </div>
-                                                            <div class="label-parcent">
-                                                                <span class="parcent">-38%</span>
-                                                            </div>
-                                                            <a class="pro-image" href="#">
-                                                                <img class="primary-image" src="/assets/img/product/arrival/5.jpg" alt="#">
-                                                                <img class="secondary-image" src="/assets/img/product/arrival/2.jpg" alt="#">
-                                                            </a>
-                                                            <div class="pro-actions">
-                                                                <a class="action-btn action-btn-1" href="cart.html"><i class="pe-7s-cart"></i><span>Add to Cart</span></a>
-                                                                <a class="action-btn" href="wishlist.html" data-toggle="tooltip" data-original-title="Add to Wishlist"><i class="pe-7s-like"></i></a>
-                                                                <a class="action-btn" href="#" data-toggle="tooltip" data-original-title="Compare"><i class="pe-7s-repeat"></i></a>
-                                                            </div>
-                                                            <div class="pro-name-price">
-                                                                <h3><a href="#">Women's Dresses</a></h3>
-                                                                <h4>$65.00</h4>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="single-product">
-                                                        <div class="product-img">
-                                                            <a class="pro-image" href="#">
-                                                                <img class="primary-image" src="/assets/img/product/arrival/4.jpg" alt="#">
-                                                                <img class="secondary-image" src="/assets/img/product/arrival/5.jpg" alt="#">
-                                                            </a>
-                                                            <div class="pro-actions">
-                                                                <a class="action-btn action-btn-1" href="cart.html"><i class="pe-7s-cart"></i><span>Add to Cart</span></a>
-                                                                <a class="action-btn" href="wishlist.html" data-toggle="tooltip" data-original-title="Add to Wishlist"><i class="pe-7s-like"></i></a>
-                                                                <a class="action-btn" href="#" data-toggle="tooltip" data-original-title="Compare"><i class="pe-7s-repeat"></i></a>
-                                                            </div>
-                                                            <div class="pro-name-price">
-                                                                <h3><a href="#">back t-shirt</a></h3>
-                                                                <h4>$25.00</h4>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <!-- Single-Product End -->
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div> --}}
+ 
                             </div>
                         </div>
                     </div>

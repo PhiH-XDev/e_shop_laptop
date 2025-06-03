@@ -88,6 +88,8 @@
     <ul class="app-menu">
       <li><a class="app-menu__item " href="index.php?page=home"><i class='app-menu__icon bx bx-tachometer'></i><span
             class="app-menu__label">Bảng điều khiển</span></a></li>
+      <li><a class="app-menu__item " href="/admin/transaction"><i class='app-menu__icon bx bx-receipt'></i><span
+            class="app-menu__label">Danh sách giao dịch</span></a></li>
       <!-- <li><a class="app-menu__item" href="index.php?page=user"><i class='app-menu__icon bx bx-user-voice'></i><span
             class="app-menu__label">Quản lý khách hàng</span></a></li> -->
       <li><a class="app-menu__item" href="/admin/sanphamde"><i

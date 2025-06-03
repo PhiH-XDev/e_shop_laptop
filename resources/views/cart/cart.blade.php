@@ -67,16 +67,7 @@
                 </table>
             </div>
 
-            {{-- Hai nút trong form --}}
-            <div class="d-flex justify-content-between mt-3">
-                <button type="submit" name="action" value="update" class="btn btn-primary">Cập nhật giỏ hàng</button>
-                <button type="submit" name="action" value="checkout" class="btn btn-success">Thanh toán</button>
-            </div>
-        </div>
-    </div>
-
-    {{-- Mã giảm giá và tóm tắt --}}
-    <div class="shipping-discount-details mt-4">
+            <div class="shipping-discount-details mt-4">
         <div class="row">
             <div class="col-sm-4 col-sm-12">
                 <label class="custom-form custom-submit active-submit">Mã giảm giá</label>
@@ -105,6 +96,18 @@
             </div>
         </div>
     </div>
+
+            {{-- Hai nút trong form --}}
+            <div class="button-group">
+                <button type="submit" name="action" value="update" class="btn btn-update">Update Card</button>
+                <button type="submit" name="action" value="checkout" class="btn btn-checkout">Checkout</button>
+            </div>
+
+        </div>
+    </div>
+
+    {{-- Mã giảm giá và tóm tắt --}}
+    
 </form>
 
         </div>

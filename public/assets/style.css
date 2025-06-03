@@ -745,7 +745,7 @@ ul.top-menu li ul.top-submenu li a:hover {
 .fashion-details {
   float: left;
   margin-left: -63px;
-  margin-top: 170px;
+  margin-top: 210px;
   position: relative;
   width: 50%;
   z-index: 9;
@@ -3094,7 +3094,57 @@ h3.widget-title-modal {
 .product-banner.banner-3 .shop-now:focus {color: #fff;}
 .custom-submit:focus {color: #fff;}
 
+.name_product{
+  font-size: 26px;
+  font-weight: normal;
+}
+.view-collection-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
 
+.view-collection-btn {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 25px;
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
 
+.view-collection-btn:hover {
+    background-color: #333;
+}
+.button-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
 
+.btn-update {
+    order: 2;
+}
 
+.btn-checkout {
+    order: 1;
+}
+
+.btn {
+    padding: 8px 23px;
+    border: none;
+    border-radius: 5%;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn-update {
+    background-color: #99c9fc;
+}
+
+.btn-checkout {
+    background-color: #46b961;
+}

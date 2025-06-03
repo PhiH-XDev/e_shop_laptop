@@ -1,7 +1,7 @@
 
 
 @extends('layout')
-@section('tieuDe', 'shope')
+@section('tieuDe', 'Shop')
 @section('conten')
 
 
